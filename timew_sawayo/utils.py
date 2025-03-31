@@ -1,4 +1,6 @@
-def check_optional_key_val_in_nested_dict(data: dict, key_path: list[str], value) -> bool:
+def check_optional_key_val_in_nested_dict(
+    data: dict, key_path: list[str], value
+) -> bool:
     """Check if key_path exists in nested dict and element at key_path is value"""
     cur_element = data
     for key in key_path:

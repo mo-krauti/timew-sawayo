@@ -68,7 +68,7 @@ query TimeReportDay($input: TimeReportForDayInput!) {
 )
 
 QUERY_ADD_TIME_ENTRY = gql(
-"""
+    """
 mutation AddTimeEntry($input: AddTimeEntryInput!) {
   addTimeEntry(input: $input) {
     data {
